@@ -1,4 +1,4 @@
-const calculate = document.getElementById('calculate');
+const calculate = document.getElementById('botao-calcular');
 
 
 function imc () {
@@ -9,8 +9,7 @@ function imc () {
 
     if (name !== '' && height !== '' && weight !== '') {
         
-        let imc
-        imc = weight /(height * height).toFixed(2);
+        let imc = weight /(height * height).toFixed(2);
         console.log (imc)
 
         if (imc < 18.5){

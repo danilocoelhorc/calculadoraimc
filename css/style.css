@@ -4,9 +4,6 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
-body {
-    background-color: gray;
-}
 
 .container {
     height: 100vh;
@@ -14,16 +11,25 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    background-color: gray;
 }
 
 .calculadora {
-    background-color: rgb(245, 183, 69);
+    background-color: rgb(230, 185, 64);
     width: 200px;
-    height: 400px;
+    height: 450px;
     border-radius: 15px;
     padding: 30px 30px 30px 30px;
+}
 
+.title {
+padding-bottom: 20px;
+}
+
+.caixa-texto {
+    padding: 5px 0px 5px 0px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 3px
 }
 
 #botao-calcular {
@@ -36,21 +42,12 @@ body {
     border-radius: 5px;
 }
 
-.title {
-padding-bottom: 20px;
-}
-
-.caixa-texto {
-    padding: 5px 0px 5px 0px;
-    margin: 10px 0px 10px 0px;
-    border-radius: 3px
-}
-
-#result {
+.resultado {
+    height: 20%;
     text-align: center;
     color: white;
     background-color: black;
-    padding: 50px 0px 50px 0px ;
     font-size: 15px;
     border-radius: 5px;
+    padding: 50px 1px 0% 1px;
 }
