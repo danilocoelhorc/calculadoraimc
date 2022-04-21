@@ -9,18 +9,27 @@ body {
 }
 
 .container {
-    background-color: rgb(245, 183, 69);
-    width: 20vw;
-    height: 66vh;
-    border-radius: 15px;
-    padding: 30px 30px 30px 30px;
-    margin: 13vh 40vw 13vh 40vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#calculate {
-    width: 30vh;
+.calculadora {
+    background-color: rgb(245, 183, 69);
+    width: 200px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 30px 30px 30px 30px;
+
+}
+
+#botao-calcular {
+    width: 100%;
     text-align: center;
-    margin: 10px 30px 20px 0px;
+    margin: 10px 0px 20px 0px;
     color: rgb(245, 183, 69);
     background-color: black;
     padding: 5px 80px 5px 80px;
@@ -31,14 +40,10 @@ body {
 padding-bottom: 20px;
 }
 
-.text {
+.caixa-texto {
     padding: 5px 0px 5px 0px;
     margin: 10px 0px 10px 0px;
     border-radius: 3px
-}
-
-.label {
-    margin: 3px;
 }
 
 #result {
